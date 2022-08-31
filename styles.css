@@ -1,0 +1,119 @@
+
+body{
+    margin: 0px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.container2{
+    display: flex;
+    width: 1341px;
+    height: 675px;
+    border: 1px solid black;
+    background-image: url("fondo2.jpg");
+    flex-direction: column-reverse;
+}
+
+.container2 p{
+    color: white;
+    font-size: 48px;
+    font-family: 'Lucida Sans Unicode';
+    
+}
+.container3{
+    display: flex;
+    float: left;
+    width: 447px;
+    height: 223px;
+    flex-direction: column-reverse;
+    justify-content:space-between;
+    background-image: url("porsche718.jpg");
+}
+
+.container3 button{
+    width: 118px;
+    height: 40px;
+    margin: 10px;
+    font-size: 10px;
+    font-family: 'Lucida Sans Unicode';
+}
+
+.container3 h3{
+    font-size: 22px;
+    font-family: 'Lucida Sans Unicode';
+}
+
+.container4{
+    display: flex;
+    float: left;
+    width: 447px;
+    height: 223px;
+    flex-direction: column-reverse;
+    justify-content:space-between;
+    background-image: url("porsche911.jpg");
+}
+
+.container4 button{
+    width: 118px;
+    height: 40px;
+    margin: 10px;
+    font-size: 10px;
+    font-family: 'Lucida Sans Unicode';
+}
+
+.container4 h3{
+    font-size: 22px;
+    font-family: 'Lucida Sans Unicode';
+    color: white;
+}
+
+.container5{
+    display: flex;
+    width: 447px;
+    height: 223px;
+    flex-direction: column;
+    justify-content:space-between;
+    background-image: url("porschetaycan.jpg");
+}
+
+.container5 button{
+    width: 118px;
+    height: 40px;
+    margin: 10px;
+    font-size: 10px;
+    font-family: 'Lucida Sans Unicode';
+}
+
+.container5 h3{
+    font-size: 22px;
+    font-family: 'Lucida Sans Unicode';
+    color: white;
+}
+
+footer{
+    background-color: #0F0F0F;
+    color: white;
+    font-family: 'Lucida Sans Unicode';
+    height: 300px;
+}
+
+footer h2{
+    margin-left: 100px;
+    font-family: 'Lucida Sans Unicode';
+}
+
+footer input{
+    margin-left: 40px;
+    margin-bottom: 40px;
+    height: 40px;
+}
+
+footer p{
+    font-family: 'Lucida Sans Unicode';
+    margin-bottom: 40px;
+}
